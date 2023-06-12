@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Quiz Online</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var casaUm = document.getElementById("casaUm");
+            var casaDois = document.getElementById("casaDois");
+            var casaTres = document.getElementById("casaTres");
+            var casaQuatro = document.getElementById("casaQuatro");
+
+            casaUm.addEventListener("click", function() {
+                window.location.href = "VocePerdeu.html";
+            });
+
+            casaDois.addEventListener("click", function() {
+                window.location.href = "VocePerdeu.html";
+            });
+
+            casaTres.addEventListener("click", function() {
+                window.location.href = "VocePerdeu.html";
+            });
+
+            casaQuatro.addEventListener("click", function() {
+                window.location.href = "Quiz3.html";
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-size: 50px;">1ª Pergunta</h1>
+    </div>
+    <div style="font-size: 30px;" style="text-align: center;">
+        <p>
+            <table>
+                <tr class="linha1">
+                    <th>Imóvel</th>
+                    <th>Largura</th>
+                    <th>Comprimento</th>
+                </tr>
+                <tr class="linha2">
+                    <td>Casa 1</td>
+                    <td>50</td>
+                    <td>60</td>
+                </tr>
+                <tr class="linha3">
+                    <td>Casa 2</td>
+                    <td>30</td>
+                    <td>90</td>
+                </tr>
+                <tr class="linha4">
+                    <td>Casa 3</td>
+                    <td>40</td>
+                    <td>70</td>
+                </tr>
+                <tr class="linha5">
+                    <td>Casa 4</td>
+                    <td>80</td>
+                    <td>40</td>
+                </tr>
+            </table>
+        </p>
+        <div style="text-align: center;">
+            <text style="font-size: 25px;">De acordo com a tabela acima, qual das <span class="destaque">casas</span> possui a maior <span class="destaque">área</span>?</text>
+        </div>
+        <p>
+            <div class="container">
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="casaUm">
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" width="50"></img>
+                        </button>
+                    </div>
+                    <div class="numero-container">
+                        <span class="nUm">Casa 1</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="casaDois">
+                            <img class="imgDois" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" width="50"></img>
+                        </button>
+                    </div>
+                    <div class="numero-container">
+                        <span class="nDois">Casa 2</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="casaTres">
+                            <img class="imgTres" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" width="50"></img>
+                        </button>
+                    </div>
+                    <div class="numero-container">
+                        <span class="nTres">Casa 3</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="casaQuatro">
+                            <img class="imgQuatro" src="https://cdn-icons-png.flaticon.com/512/25/25694.png" width="50"></img>
+                        </button>
+                    </div>
+                    <div class="numero-container">
+                        <span class="nQuatro">Casa 4</span>
+                    </div>
+                </div>
+            </div>
+
+        </p>
+</body>
+
+</html>

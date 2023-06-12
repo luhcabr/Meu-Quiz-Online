@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Quiz Online</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var javacodigo = document.getElementById("javacodigo");
+            var csscodigo = document.getElementById("csscodigo");
+            var wordpress = document.getElementById("wordpress");
+            var joomla = document.getElementById("joomla");
+
+            javacodigo.addEventListener("click", function() {
+                window.location.href = "UmPonto.html";
+            });
+
+            csscodigo.addEventListener("click", function() {
+                window.location.href = "Quiz4.html";
+            });
+
+            wordpress.addEventListener("click", function() {
+                window.location.href = "UmPonto.html";
+            });
+
+            joomla.addEventListener("click", function() {
+                window.location.href = "UmPonto.html";
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-size: 50px;">2ª Pergunta</h1>
+    </div>
+    <div style="font-size: 30px;" style="text-align: center;">
+        <div style="text-align: center;">
+            <text style="font-size: 25px;">Qual dos <span class="destaque">logotipos</span> abaixo representa uma linguagem que aplica <span class="destaque">estilos</span> em páginas web<span class="destaque">?</span></text>
+        </div>
+        <p>
+            <div class="container">
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="javacodigo">
+                            <img src="https://logospng.org/download/javascript/logo-javascript-icon-512.png" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="csscodigo">
+                            <img class="imgDois" src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="wordpress">
+                            <img class="imgTres" src="https://cdn-icons-png.flaticon.com/512/174/174881.png?w=360" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="joomla">
+                            <img class="imgQuatro" src="https://myfirstcomp.ru/wp-content/uploads/2013/10/joomla.png" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </p>
+</body>
+
+</html>

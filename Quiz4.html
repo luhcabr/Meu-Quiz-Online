@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Quiz Online</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var chuveiro = document.getElementById("chuveiro");
+            var fogo = document.getElementById("fogo");
+            var carrinho = document.getElementById("carrinho");
+            var puzzle = document.getElementById("puzzle");
+
+            chuveiro.addEventListener("click", function() {
+                window.location.href = "DoisPontos.html";
+            });
+
+            fogo.addEventListener("click", function() {
+                window.location.href = "DoisPontos.html";
+            });
+
+            carrinho.addEventListener("click", function() {
+                window.location.href = "DoisPontos.html";
+            });
+
+            puzzle.addEventListener("click", function() {
+                window.location.href = "Parabens.html";
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-size: 50px;">3ª Pergunta</h1>
+    </div>
+    <div style="font-size: 30px;" style="text-align: center;">
+        <div style="text-align: center;">
+            <text style="font-size: 25px;">Quais dos <span class="destaque">itens</span> abaixo podem ser utilizados para:</text>
+        </div>
+        <ul>
+            <li>Diversão</li>
+            <li>Testar a Memória</li>
+            <li>Melhorar Habilidades em Grupo</li>
+            <li>Praticar a Paciência</li>
+        </ul>
+        <p>
+            <div class="container">
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="chuveiro">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2309/2309927.png" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="fogo">
+                            <img class="fogo" src="https://cdn-icons-png.flaticon.com/512/25/25247.png" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="carrinho">
+                            <img class="imgTres" src="https://cdn-icons-png.flaticon.com/512/2568/2568255.png" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="imagem-container">
+                        <button id="puzzle">
+                            <img class="imgQuatro" src="https://cdn-icons-png.flaticon.com/512/32/32465.png" width="70"></img>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </p>
+</body>
+
+</html>

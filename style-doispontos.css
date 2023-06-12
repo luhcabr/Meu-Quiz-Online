@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.container > div {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.container h1 {
+    margin: 0;
+}
+
+.return {
+    display: flex;
+    align-items: center;
+}
+
+.tentar-novamente {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.tentar-novamente h1 {
+    margin: 0;
+}
+
+img {
+    margin-inline: 10px;
+}
